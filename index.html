@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/a489e0e418.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+  <title>Accounting & Financial Services | BridgeLedger Investment Bank</title>
+</head>
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <a href="index.html" class="btn-dark"><span class="text-primary">
+        <i class="fas fa-book-open"></i> Bridge</span>Ledger
+      </a>
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header: Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">Create A Better Future</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore earum, quisquam voluptatum dolores repudiandae?</p>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <!-- Section: What We Do -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-university fa-2x"></i>
+          <div>
+            <h3>Investment Banking</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, recusandae.</p>
+          </div>
+        </div>
+        
+        <div class="item">
+          <i class="fas fa-book-reader fa-2x"></i>
+          <div>
+            <h3>Portfolio Management</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, recusandae.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+          <div>
+            <h3>Tax &amp; Custodial</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, recusandae.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End of Container-->
+  </section> <!-- End of Section: What We Do -->
+
+  <!-- Section: Who We Are -->
+  <section id="who">
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, hic repudiandae. Quos incidunt quod quisquam. Ad aliquid architecto culpa. Laboriosam ipsa iusto est aperiam quam distinctio assumenda ipsam, sunt hic.</p>
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>Michael Garrett: CEO</li>
+        <li>Letitia Collins: COO</li>
+        <li>Elaine Watson: CFO</li>
+        <li>Wendy Scott: Secretary</li>
+        <li>Joe Carroll: Senior Accountant</li>
+      </ul>
+    </div>
+  </section> <!-- End of Section: Who We Are -->
+
+  <!-- Section: Clients -->
+  <section id="clients" class="py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
+      <div class="items py-1">
+        <div><img src="./img/logos/logo1.png" alt="Client 1"></div>
+        <div><img src="./img/logos/logo2.png" alt="Client 2"></div>
+        <div><img src="./img/logos/logo3.png" alt="Client 3"></div>
+        <div><img src="./img/logos/logo4.png" alt="Client 4"></div>
+        <div><img src="./img/logos/logo5.png" alt="Client 5"></div>
+      </div>
+    </div>
+  </section> <!-- End of Section: Clients -->
+  
+  <!-- Section: Contact -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us.</p>
+      <form action="process.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+        </div>
+        <input type="submit" value="Send" class="btn btn-dark">
+      </form>
+    </div>
+
+    <div class="map"></div>
+  </section> <!-- End of Section: Contact -->
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+      <p>Copyright &copy; 2019, <a href="index.html" class="btn-dark">BridgeLedger</a>. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Local JS File -->
+  <script src="js/main.js"></script>
+
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPGPUhZ2B722Vou0NXcW6aGELXrKXydgE&callback=initMap" async defer></script>
+</body>
+</html>
