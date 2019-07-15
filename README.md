@@ -5,6 +5,8 @@ A fictional company that offers banking, financial and advisory services.
 ## Built with:
 - HTML5
 - CSS3
+- PHP
+- Google Maps API
 
 ![BridgeLedger Screenshot](img/screenshot.png "BridgeLedger Screenshot")
 
