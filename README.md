@@ -10,7 +10,7 @@ A fictional company that offers banking, financial and advisory services.
 
 ![BridgeLedger Screenshot](img/screenshot.png "BridgeLedger Screenshot")
 
-Visit the [live preview](https://genesisgabiola.github.io/bridgeLedger/).
+Visit the [live preview](https://bridgeledger.netlify.com/).
 
 ## Future Improvements:
 - [ ] Make it fully reponsive with some device.
